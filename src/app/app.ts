@@ -1,7 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderLayoutComponent } from "./shared/header-layout/header-layout.component";
-import { CartLayoutComponent } from "./shared/header-layout/cart-layout.component";
+import { CartLayoutComponent } from "./shared/cart/cart-layout.component";
 import { FormsModule } from '@angular/forms';
 import { CurrencyPipe } from './shared/pipes/CurrencyPipe.pipe';
 
@@ -40,4 +40,6 @@ export class App {
   updateInput(): void{
     console.log('up up up')
   }
+
+
 }
