@@ -18,7 +18,7 @@
       <div class="cart-col name">{{ product.name | upperCasePipe}}</div>
       <div class="cart-col price">{{product.price| currencyPipe}}</div>
       <div class="cart-col action">
-        <button class="delete-btn">
+        <button [routerLink]="['/detail', product.id]" class="delete-btn">
           <span class="material-icons">delete</span>
         </button>
       </div>

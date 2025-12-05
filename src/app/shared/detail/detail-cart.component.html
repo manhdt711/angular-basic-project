@@ -1,0 +1,21 @@
+<div class="cart-container">
+  <h2 class="cart-title">Detail CART {{ id }}</h2>
+  <div class="cart-table">
+    <div class="cart-header">
+      <span>IMAGE</span>
+      <span>NAME</span>
+      <span>PRICE</span>
+      <span>ACTION</span>
+    </div>
+    <!-- <div *ngFor="let product of products; let i = index" class="cart-row">
+      <span>
+        <img [src]="product.image || 'https://via.placeholder.com/50x50'" alt="{{ product.name }}" class="product-img" />
+      </span>
+      <span>{{ product.name }}</span>
+      <span>{{ product.price | number:'1.0-0' }} ₫</span>
+      <span>
+        <button class="delete-btn" (click)="deleteProduct(i)">delete</button>
+      </span>
+    </div> -->
+  </div>
+</div>

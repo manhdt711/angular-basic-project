@@ -1,0 +1,18 @@
+
+
+  <div>{{ mTitle.name}}</div>
+   <div>{{ mTitle.old + 100}}</div>
+
+   <button [disabled]="isDisable">clgima</button>
+
+   <h1>Click is an event</h1>
+
+   <button (click)="handleClickMe()">{{nameBtn}}</button>
+
+   <div>Message: {{ clickedMessage }}</div>
+
+   <input type="text" (change)="updateInput()" [(ngModel)]="bindingMesssage">
+
+   <div>Binding Message: {{  bindingMesssage }}</div>
+
+   <cart-layout/>
