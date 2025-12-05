@@ -1,0 +1,27 @@
+
+
+<div class="cart-container">
+  <h2 class="cart-title">SHOPPING CART</h2>
+  <div class="cart-table">
+    <div class="cart-header">
+      <div class="cart-col image">IMAGE</div>
+      <div class="cart-col name">NAME</div>
+      <div class="cart-col price">PRICE</div>
+      <div class="cart-col action">ACTION</div>
+    </div>
+    <div class="cart-row">
+      <div class="cart-col image">
+        <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,q_auto:eco/0d4f6f21-6ce6-4b7e-a5e7-3c9a0cd8a7b4/samba-og-shoes.png"
+             alt="Samba OG" class="product-img" />
+      </div>
+      <div class="cart-col name">{{ 'Samba OG' | upperCasePipe}}</div>
+      <div class="cart-col price">{{400000 | currencyPipe}}</div>
+      <div class="cart-col action">
+        <button class="delete-btn">
+          <span class="material-icons">delete</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
